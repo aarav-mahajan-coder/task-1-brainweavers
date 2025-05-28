@@ -1,2 +1,2 @@
-# task-1-brainwaavers
+# task-1-brainwavers
 Day planner project 
