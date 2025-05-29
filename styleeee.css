@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d1fae5; /* light green */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+
+    padding: 30px;
+    border-radius: 16px;
+    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 5px;
+    color: #1e3a8a;
+  }
+  
+  .date {
+    margin-top: 0;
+    color: #4b5563;
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+  
+  .planner {
+    margin-top: 20px;
+  }
+  
+  .time-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .hour {
+    width: 90px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px;
+    text-align: center;
+
+
+    font-weight: bold;
+  }
+  
+  .task {
+
+
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+
+
+    font-size: 1em;
+  }
+  
+  .saveBtn {
+    width: 70px;
+    background-color: #10b981;
+    color: white;
+    border: none;
+
+
+    padding: 12px;
+
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .saveBtn:hover {
+    background-color: #059669;
+  }
+  
+  .clearBtn {
+    margin-top: 20px;
+    background-color: #ef4444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .clearBtn:hover {
+    background-color: #dc2626;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #16a34a;
+  }
+  
+  .past {
+    background-color: #f3f4f6;
+    color: #9ca3af;
+  }
+  
+  .present {
+    background-color: #fee2e2;
+  }
+  
+  .future {
+    background-color: #e0f2fe;
+  }
+  
+  .clock {
+    font-size: 1.2em;
+    color: #059669;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
